@@ -1,0 +1,28 @@
+/* ═══════════════════════════════════════════════
+   Specora — Base Styles (shared across all pages)
+   ═══════════════════════════════════════════════ */
+
+/* ── CSS Variables ── */
+:root{
+  --gold:#EABD78;
+  --gold-light:#F5D9A8;
+  --gold-dark:#C9973A;
+  --black:#111111;
+  --white:#FFFFFF;
+  --off-white:#FAFAF8;
+  --gray-100:#F4F3F0;
+  --gray-200:#E8E6E0;
+  --gray-400:#A8A49C;
+  --gray-600:#6B6760;
+  --font-display:'Syne',sans-serif;
+  --font-body:'DM Sans',sans-serif;
+  --radius:14px;
+  --radius-sm:10px;
+  --radius-pill:100px;
+}
+
+/* ── Reset ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;display:block;}

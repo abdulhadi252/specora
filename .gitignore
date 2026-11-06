@@ -1,0 +1,43 @@
+# ═══════════════════════════════════════
+# Specora — .gitignore
+# ═══════════════════════════════════════
+
+# Environment files (contain sensitive credentials)
+.env
+specora.sql
+api/
+
+
+# Bug reports (internal documentation, not for public)
+BUGS_REPORT.md
+# OS files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Windows reserved names (causes 'nul: failed to insert into database')
+nul
+NUL
+Nul
+nul.*
+NUL.*
+
+# Temporary files
+New Text Document.txt
+*.log
+tmp/
+
+# Uploaded files (user-generated content)
+uploads/feedback/*
+uploads/rate_limits/*
+uploads/logs/*
+uploads/about/*
+!uploads/feedback/.gitkeep
+!uploads/.gitkeep
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-*
